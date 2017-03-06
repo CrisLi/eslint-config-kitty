@@ -1,5 +1,5 @@
 {
-  "name": "crisli-eslint",
+  "name": "eslint-config-kitty",
   "version": "1.0.0",
   "description": "Chirs' ESLint config",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:CrisLi/crisli-eslint.git"
+    "url": "git+https@github.com:CrisLi/eslint-config-kitty.git"
   },
   "keywords": [
     "eslint"
@@ -16,9 +16,9 @@
   "author": "Chris Li",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CrisLi/crisli-eslint/issues"
+    "url": "https://github.com/CrisLi/eslint-config-kitty/issues"
   },
-  "homepage": "https://github.com/CrisLi/crisli-eslint#readme",
+  "homepage": "https://github.com/CrisLi/eslint-config-kitty#readme",
   "devDependencies": {
     "eslint": "^3.17.0",
     "eslint-config-airbnb": "^14.1.0",
