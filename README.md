@@ -2,6 +2,8 @@
 
 Export the ESlint configuration
 
+### How to use
+
 1. Install the correct versions of each package
 
   ```sh
