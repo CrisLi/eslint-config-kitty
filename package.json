@@ -1,0 +1,36 @@
+{
+  "name": "crisli-eslint",
+  "version": "1.0.0",
+  "description": "Chirs' ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CrisLi/crisli-eslint.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Chris Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrisLi/crisli-eslint/issues"
+  },
+  "homepage": "https://github.com/CrisLi/crisli-eslint#readme",
+  "devDependencies": {
+    "eslint": "^3.17.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0"
+  },
+  "peerDependencies": {
+    "eslint": "^3.17.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.10.0"
+  }
+}
