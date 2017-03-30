@@ -1,3 +1,7 @@
 {
-  "extends": "./index.js"
+  "extends": "./index.js",
+  "rules": {
+    "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 6 }],
+    "import/no-extraneous-dependencies": 0
+  }
 }
