@@ -72,12 +72,20 @@ module.exports = {
     'react/prop-types': [
       'off'
     ],
-    'space-before-function-paren': ['error', {
-      anonymous: 'never',
-      named: 'never',
-      asyncArrow: 'always'
-    }
+    'space-before-function-paren': [
+      'error',
+      {
+        anonymous: 'never',
+        named: 'never',
+        asyncArrow: 'always'
+      }
     ],
     'spaced-comment': 'warn',
+    'padded-blocks': [
+      'error',
+      {
+        classes: 'always'
+      }
+    ]
   }
 };

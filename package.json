@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-kitty",
-  "version": "1.4.2",
+  "version": "1.4.4",
   "description": "Chirs' ESLint config",
   "main": "index.js",
   "scripts": {
@@ -20,13 +20,16 @@
   },
   "homepage": "https://github.com/CrisLi/eslint-config-kitty#readme",
   "devDependencies": {
-    "eslint": "^4.3.0"
+    "eslint": "^4.9.0"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-react": "^7.1.0",
-    "eslint-config-airbnb-base": "^11.3.1"
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
