@@ -14,6 +14,10 @@ class Person {
 
 const my = new Person();
 
+const { name, age } = my;
+
+console.log(name, age);
+
 function testIt() {
   my.sayHello();
 }

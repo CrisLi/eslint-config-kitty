@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-kitty",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "Chirs' ESLint config",
   "main": "index.js",
   "scripts": {

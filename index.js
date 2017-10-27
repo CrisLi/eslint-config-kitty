@@ -86,6 +86,12 @@ module.exports = {
       {
         classes: 'always'
       }
-    ]
+    ],
+    'object-curly-newline': ['error',
+      {
+        ObjectExpression: { minProperties: 6, multiline: true, consistent: true },
+        ObjectPattern: { minProperties: 6, multiline: true, consistent: true }
+      }
+    ],
   }
 };
