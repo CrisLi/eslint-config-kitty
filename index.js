@@ -1,5 +1,8 @@
 module.exports = {
   extends: 'airbnb',
+  env: {
+    es6: true
+  },
   rules: {
     'arrow-body-style': [
       'warn',
@@ -21,6 +24,9 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'import/prefer-default-export': 'warn',
     'jsx-a11y/label-has-for': [
+      'off'
+    ],
+    'jsx-a11y/anchor-is-valid': [
       'off'
     ],
     'key-spacing': 'warn',
@@ -54,6 +60,9 @@ module.exports = {
       'warn',
       'after-props'
     ],
+    'react/no-did-mount-set-state': [
+      'off'
+    ],
     'react/jsx-filename-extension': [
       'warn',
       {
@@ -70,6 +79,9 @@ module.exports = {
       'off'
     ],
     'react/prop-types': [
+      'off'
+    ],
+    'react/no-underscore-dangle': [
       'off'
     ],
     'space-before-function-paren': [
